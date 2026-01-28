@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Employee {
-
+    private String sooad;
     private @Id
     @GeneratedValue Long id;
     private String name;
